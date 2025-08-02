@@ -15,12 +15,14 @@ public class GITHUB {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        String nombre,edad;
+        String nombre,edad,telefono;
        Scanner lector=new Scanner(System. in);
         System.out.println("Ingrese su nombre");
         nombre=lector.next();
         System.out.println("Ingrese su edad");
         edad=lector.next();
+        System.out.println("Ingrese su telefono");
+        telefono=lector.next();
     }
     
 }
